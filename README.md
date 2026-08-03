@@ -1,6 +1,6 @@
 # Furkan Kirtay Portfolio
 
-This is my personal portfolio website, created with Vibe Coding. It is a responsive web application built using HTML, CSS, and JavaScript.
+This is my personal portfolio website as a web developer. It is a responsive web application built using HTML, CSS, and JavaScript.
 
 The project showcases my skills, projects, and experience in a clean and modern interface while focusing on simplicity, performance, and user experience.
 

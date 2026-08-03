@@ -8,8 +8,8 @@ const translations = {
 
   'hero.eyebrow': { tr: '👋 Merhaba', en: '👋 Hi, I\'m' },
   'hero.desc': {
-    tr: 'Bakırköy, İstanbul merkezli — AI destekli yazılım geliştirme (vibe coding) ve prompt engineering üzerine çalışıyorum. Fikirleri hızlıca çalışan ürünlere dönüştürmeyi seviyorum.',
-    en: 'Based in Bakırköy, Istanbul — I work on AI-assisted software development (vibe coding) and prompt engineering. I love turning ideas into working products, fast.'
+    tr: 'Bakırköy, İstanbul merkezli — web geliştirme ve AI destekli prompt engineering üzerine çalışıyorum. Fikirleri hızlıca çalışan ürünlere dönüştürmeyi seviyorum.',
+    en: 'Based in Bakırköy, Istanbul — I work on web development and AI-assisted prompt engineering. I love turning ideas into working products, fast.'
   },
   'hero.btnContact': { tr: 'Benimle İletişime Geç', en: 'Get In Touch' },
   'hero.btnProjects': { tr: 'Projelerimi Gör', en: 'View My Projects' },
@@ -25,8 +25,8 @@ const translations = {
     en: 'After finishing high school, I decided to move to Germany on my own. I spent 2 years there learning and improving my German, then decided to move back to Turkey. After returning, I worked in the call center industry in German for 3 years.'
   },
   'about.p3': {
-    tr: 'Şimdi ise <strong>vibe coding</strong> ve <strong>prompt engineering</strong> ile yazılım sektöründe çalışmak istiyorum. Kendimi bildim bileli teknolojiyle iç içe olan bir insanım ve şu ana kadar yaptığım çalışmalardan oldukça keyif aldım, almaya da devam ediyorum.',
-    en: 'Now I want to work in the software industry through <strong>vibe coding</strong> and <strong>prompt engineering</strong>. I\'ve been immersed in technology for as long as I can remember, and I\'ve genuinely enjoyed everything I\'ve built so far — and still do.'
+    tr: 'Şimdi ise <strong>web development</strong> ve <strong>prompt engineering</strong> ile yazılım sektöründe çalışmak istiyorum. Kendimi bildim bileli teknolojiyle iç içe olan bir insanım ve şu ana kadar yaptığım çalışmalardan oldukça keyif aldım, almaya da devam ediyorum.',
+    en: 'Now I want to work in the software industry through <strong>web development</strong> and <strong>prompt engineering</strong>. I\'ve been immersed in technology for as long as I can remember, and I\'ve genuinely enjoyed everything I\'ve built so far — and still do.'
   },
   'about.fact.location': { tr: 'Konum', en: 'Location' },
   'about.fact.born': { tr: 'Doğum', en: 'Born' },
@@ -54,8 +54,8 @@ const translations = {
   'skills.python.li4': { tr: 'Sayı tahmin oyunu', en: 'Number guessing game' },
   'skills.python.li5': { tr: 'Not hesaplama uygulaması', en: 'Grade calculator app' },
   'skills.vibe.desc': {
-    tr: 'Claude Code ile AI destekli yazılım geliştirme yaparak fikirlerimi hızlıca çalışan projelere dönüştürüyorum.',
-    en: 'I turn ideas into working projects quickly with AI-assisted development using Claude Code.'
+    tr: 'Modern web teknolojileriyle fikirlerimi hızlıca çalışan projelere dönüştürüyorum.',
+    en: 'I turn ideas into working projects quickly using modern web technologies.'
   },
   'skills.react.desc': {
     tr: 'Modern frontend geliştirme konusunda öğrenme sürecindeyim, aktif olarak kendimi geliştiriyorum.',
@@ -66,7 +66,7 @@ const translations = {
   'experience.tag': { tr: '03 — Yolculuk', en: '03 — Journey' },
   'experience.title': { tr: 'Deneyim & Eğitim', en: 'Experience & Education' },
   'exp.item1.date': { tr: 'Şu an', en: 'Currently' },
-  'exp.item1.title': { tr: 'Vibe Coding & Prompt Engineering', en: 'Vibe Coding & Prompt Engineering' },
+  'exp.item1.title': { tr: 'Web Development & Prompt Engineering', en: 'Web Development & Prompt Engineering' },
   'exp.item1.desc': { tr: 'AI destekli araçlarla yazılım geliştirme öğreniyor ve bu alanda kariyer inşa ediyorum.', en: 'Learning software development with AI-assisted tools and building a career in this field.' },
   'exp.item2.date': { tr: 'Devam ediyor', en: 'Ongoing' },
   'exp.item2.desc': { tr: '1. Sınıf, Uzaktan Eğitim.', en: '1st Year, Distance Education.' },
@@ -90,7 +90,7 @@ const translations = {
   'proj5.title': { tr: 'Not Hesaplama Uygulaması', en: 'Grade Calculator App' },
   'proj5.desc': { tr: 'Girilen notlara göre ortalama hesaplayan pratik bir Python uygulaması.', en: 'A practical Python app that calculates the average based on entered grades.' },
   'proj6.title': { tr: 'Yeni Projeler Geliyor', en: 'New Projects Coming Soon' },
-  'proj6.desc': { tr: 'Vibe coding ile geliştirdiğim yeni projeler yakında burada olacak.', en: 'New projects I\'m building with vibe coding will be here soon.' },
+  'proj6.desc': { tr: 'Web development ile geliştirdiğim yeni projeler yakında burada olacak.', en: 'New projects I\'m building with web development will be here soon.' },
 
   'contact.tag': { tr: '05 — İletişim', en: '05 — Contact' },
   'contact.title': { tr: 'Hadi Konuşalım', en: 'Let\'s Talk' },
@@ -111,7 +111,7 @@ const translations = {
   'form.submit': { tr: 'Mesajı Gönder', en: 'Send Message' },
 
   'footer.rights': { tr: 'Tüm hakları saklıdır.', en: 'All rights reserved.' },
-  'footer.made': { tr: 'Prompt Engineering & Vibe Coding ile ✦ tutkuyla inşa edildi.', en: 'Built with passion using Prompt Engineering & Vibe Coding ✦' }
+  'footer.made': { tr: 'Web Development & Prompt Engineering ile ✦ tutkuyla inşa edildi.', en: 'Built with passion using Web Development & Prompt Engineering ✦' }
 };
 
 const roleWords = {
