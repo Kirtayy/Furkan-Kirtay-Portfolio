@@ -115,8 +115,8 @@ const translations = {
 };
 
 const roleWords = {
-  tr: ['Prompt Engineering', 'Vibe Coding', 'AI Destekli Geliştirme', 'Python Geliştirici'],
-  en: ['Prompt Engineering', 'Vibe Coding', 'AI-Assisted Development', 'Python Developer']
+  tr: ['Web Developer'],
+  en: ['Web Developer']
 };
 
 const formMessages = {
@@ -177,13 +177,15 @@ window.addEventListener('scroll', onScroll, { passive: true });
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => {
-  navToggle.classList.toggle('active');
+  const isActive = navToggle.classList.toggle('active');
   navLinks.classList.toggle('active');
+  navToggle.setAttribute('aria-expanded', String(isActive));
 });
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navToggle.classList.remove('active');
     navLinks.classList.remove('active');
+    navToggle.setAttribute('aria-expanded', 'false');
   });
 });
 
@@ -281,7 +283,7 @@ const submitText = document.getElementById('submitText');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  const name = form.name.value.trim();
+  const name = form.elements.name.value.trim();
   const email = form.email.value.trim();
   const subject = form.subject.value.trim();
   const message = form.message.value.trim();
